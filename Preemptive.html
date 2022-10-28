@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>preemptive</title>
+    <link rel="stylesheet" href="FCFS.css">
+</head>
+<body>
+  <div class="nav">
+    <a href="main.html" target="_blank"><img src="logo2.jpg" alt="Home"></a>
+    <div class="logoline">
+      <a href="main.html"><b>'The Brain'</b> </a> 
+    </div>
+    
+<ul>
+  <li><a href="#home">LogIn/SignUp</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">More</a>
+    <div class="dropdown-content">
+      <a href="aboutUs.html">About Us</a>
+      <a href="contactUs.html">Contact Us</a>
+    </div>
+  </li>
+  <li><a href="signup.html">Upload Blog</a></li>
+  
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Android</a>
+    <div href="" class="dropdown-content">
+        <a href="#">With Java</a>
+        <a href="#">With Kotlin</a>
+    </div>
+    <li>
+        <a href="#">Java</a>
+    </li>
+    <li>
+        <a href="#">C++</a>
+        <div class="dropdown-content">
+            <a href="#">OPPs</a>
+            <a href="#">DSA</a>
+        </div>
+    </li>
+    <li>
+        <a href="#">C</a>
+    </li>
+
+  </li>
+  
+  <li class="dropdown">
+    <a href="" class="dropbtn">Explore</a>
+    <div class="dropdown-content">
+      <a href="#">Tech News</a>
+      <a href="#">Seminar</a>
+      <a href="#">Sports</a>
+      <a href="#">Weather</a>
+    </div>
+  </li>
+</ul>
+</div>
+    <br><br><br>
+    <hr>
+
+
+
+
+
+
+    <div class="one">
+        <h1>CPU Scheduling</h1>
+        <br>
+        <marquee>
+            <b>Preemptive scheduling is used when a process switches from running state to ready state or from the waiting state to ready state. The resources (mainly CPU cycles) are allocated to the process for a limited amount of time and then taken away, and the process is again placed back in the ready queue if that process still has CPU burst time remaining. That process stays in the ready queue till it gets its next chance to execute. 
+        </marquee>
+        <br><br>
+        <div class="container">
+            <button class="btn1"><a id="p" href="index.html"><b>FCFS</b></a></button>
+            <button class="btn2"><a id="p" href="Preemptive.html"><b>Preemptive</b></a></button>
+            <button class="btn3"><a id="p" href="NPreemptive.html"><b>Non Preemptive</b></a></button>
+        </div>
+    </div>
+
+    <h2><u>Preemptive CPU Scheduling</u> : -</h2>
+    <div class="flex-container">
+      <div class="coloumn1" id="flex-item-1">
+         
+          
+          <p>
+            <b><a href="https://www.geeksforgeeks.org/preemptive-and-non-preemptive-scheduling/" style="text-decoration: none;">Preemptive Scheduling</a>:-</b> 
+            Preemptive scheduling is used when a process switches from running state to ready state or from the waiting state to ready state. The resources (mainly CPU cycles) are allocated to the process for a limited amount of time and then taken away, and the process is again placed back in the ready queue if that process still has CPU burst time remaining. That process stays in the ready queue till it gets its next chance to execute. 
+          </p>
+      
+          
+  
+      </div>
+      <div class="coloumn2-1" id=flex-item-2-1 style="background-color:#bbb">
+          <div>
+          
+              <h2><u style="color:red">Input</u> -- </h2>
+              <h3>Arrival Times-</h3>
+              <label for="atimes"></label>
+              <input id="text1" type="text" placeholder="E.g.-  0 2 4 6 8">
+              <h3>Burst Times-</h3>
+              <label for="bTime"></label>
+              <input id="text2" type="text" placeholder="E.g.-  2 4 6 8 10"><br>
+              <button type="submit" class="btn4" onclick="getChecked()">Solve</button>
+              </div>
+              <div class="column2-2" id="flex-item-2-2" >
+                  <h2><u style="color:red">Output</u> -- </h2>
+                  <hr>
+                  </div>
+              
+      </div>
+      <div class="coloumn3" id="flex-item-3">
+          <div id="flex-item-3-text">
+          <p><b style="color:orangered">Arrival Time :-</b> Arrival time is the time when a process enters into the ready state and is ready for its execution.</p>
+              <p><b style="color:orangered">Burst Time :-</b> Burst time is the total time taken by the process for its execution on the CPU.</p>
+              <p><b style="color:orangered">Exit time :-</b> Exit time is the time when a process completes its execution and exit from the system.</p>
+              <p><b  style="color: orangered;">Turnaround Time :-</b> Turnaround time is the total amount of time spent by the process from coming in the ready state for the first time to its completion.<b>Turnaround time = (Burst time + Waiting time).</b> or
+              <b>Turnaround time = (Exit time - Arrival time)</b></p>
+              </div>
+      </div>
+  
+     </div>
+
+
+
+   
+        
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        
+</body>
+</html>
